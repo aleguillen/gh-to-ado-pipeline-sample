@@ -1,0 +1,12 @@
+trigger:
+  batch: true
+  branches:
+    include:
+    - main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo This is a dummy echo
+- script: echo This is a dummy echo
