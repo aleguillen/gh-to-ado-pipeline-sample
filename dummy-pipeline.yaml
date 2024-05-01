@@ -1,5 +1,5 @@
 trigger:
-    - main
+- main
 
 pool:
   vmImage: ubuntu-latest
@@ -7,4 +7,3 @@ pool:
 steps:
 - script: echo This is a dummy echo
 - script: echo Hello!
-- script: echo Adding Check Status
